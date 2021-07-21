@@ -1,0 +1,164 @@
+/*--------------------------------*\
+-------------Variables--------------
+/*--------------------------------*/
+/*--------------------------------*\
+| $FONTS
+\*--------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Shadows+Into+Light&display=swap");
+/* Texto normal  font-family: 'Rajdhani', sans-serif;*/
+/* Texto alt1 font-family: 'Shadows Into Light', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@300;400;700&display=swap");
+/*--------------------------------*\
+---------------Colors---------------
+/*--------------------------------*/
+/*--------------------------------*\
+---------------Global---------------
+/*--------------------------------*/
+/*--------------------------------*\
+---------------Global---------------
+/*--------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 4em;
+  line-height: 1em;
+}
+
+h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 3.5em;
+  line-height: 1em;
+}
+
+h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+h5 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+li,
+p {
+  font-family: "Mali", cursive;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.section {
+  padding: 10%;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+}
+
+/*--------------------------------*\
+--------------Section---------------
+/*--------------------------------*/
+.first {
+  background-color: #00a6ed;
+}
+
+.phrase {
+  font-size: 1.3em;
+}
+
+.second {
+  background-color: #f6511d;
+}
+
+.title-second {
+  font-size: 2.5em;
+}
+
+.text-second {
+  font-size: 1.2em;
+}
+
+.contact-title {
+  font-size: 2.5em;
+  margin-top: 10px;
+}
+
+.curriculum-button-title {
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button3 {
+  display: inline-block;
+  padding: 0.4em 1.3em;
+  margin: 0.3me 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00a6ed;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+@media all and (max-width: 30em) {
+  .button3 {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+
+.button3:hover {
+  background-color: #0f6499;
+}
+
+.third {
+  background-color: #7fb800;
+}
+
+.title-third {
+  font-size: 2.5em;
+}
+
+.title-xp {
+  margin-top: 10px;
+}
+
+.text-list {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.fourth {
+  background-color: #ffb400;
+}
+
+.fifth {
+  background-color: #0d2c54;
+}

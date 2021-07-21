@@ -1,0 +1,44 @@
+.second {
+	background-color: $color-section-second;
+}
+
+.title-second {
+	font-size: 2.5em;
+}
+
+.text-second {
+	font-size: 1.2em;
+}
+.contact-title {
+	font-size: 2.5em;
+	margin-top: 10px;
+}
+
+.curriculum-button-title {
+	font-size: 2.5em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.button3 {
+	display: inline-block;
+	padding: 0.4em 1.3em;
+	margin: 0.3me 0.3em 0.3em 0;
+
+	border-radius: 2em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: $font-titles;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: $color-section-first;
+	text-align: center;
+	transition: all 0.2s;
+	@media all and (max-width: 30em) {
+		display: block;
+		margin: 0.2em auto;
+	}
+}
+.button3:hover {
+	background-color: #0f6499;
+}
