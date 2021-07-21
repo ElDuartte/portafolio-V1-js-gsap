@@ -175,26 +175,41 @@ p {
   color: #000;
 }
 
-.card {
-  height: 100%;
+.carousel {
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+  display: none;
+}
+
+.img-project {
   width: 100%;
-  border-radius: 5%;
-  padding: 5px;
-  text-justify: center;
+}
+
+.carousel .carousel__item--visible {
+  display: block;
+  animation: fadeVisibility 0.8s;
 }
 
 .title-project {
   padding-bottom: 15px;
 }
 
-.img-project {
-  width: 100%;
-  border-radius: 5%;
-}
-
 .text-card {
   padding-bottom: 15px;
   font-size: 1.3em;
+}
+
+.carousel__actions {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 auto;
 }
 
 .btn {
@@ -205,12 +220,13 @@ p {
   text-decoration: none;
   font-family: "Rajdhani", sans-serif;
   font-size: 1em;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: #0d2c54;
+  font-weight: bolder;
+  color: #000;
+  background-color: #ffb400;
   text-align: center;
   transition: all 0.2s;
   border-style: none;
+  cursor: pointer;
 }
 
 @media all and (max-width: 30em) {
@@ -221,4 +237,14 @@ p {
 
 .btn:hover {
   background-color: #00a6ed;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
 }

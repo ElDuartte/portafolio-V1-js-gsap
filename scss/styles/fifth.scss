@@ -2,24 +2,29 @@
 	background-color: $color-section-fifth;
 	color: #000;
 }
-.card {
-	height: 100%;
+
+.carousel {
+	overflow: hidden;
+	max-width: 100%;
+	position: relative;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+	display: none;
+}
+
+.img-project {
 	width: 100%;
-	// background-color: rgb(255, 255, 255);
-	// color: #000;
-	border-radius: 5%;
-	padding: 5px;
-	text-justify: center;
+}
+
+.carousel .carousel__item--visible {
+	display: block;
+	animation: fadeVisibility 0.8s;
 }
 
 .title-project {
 	padding-bottom: 15px;
-}
-
-.img-project {
-	// width: 256px;
-	width: 100%;
-	border-radius: 5%;
 }
 
 .text-card {
@@ -27,26 +32,43 @@
 	font-size: 1.3em;
 }
 
+.carousel__actions {
+	display: grid;
+	width: 100%;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	padding: 0 auto;
+}
+
 .btn {
 	display: inline-block;
 	padding: 0.5em 3em;
-	// margin-top: 1em;
 	border-radius: 2em;
 	box-sizing: border-box;
 	text-decoration: none;
 	font-family: $font-titles;
 	font-size: 1em;
-	font-weight: bold;
-	color: #ffffff;
-	background-color: $color-section-fourth;
+	font-weight: bolder;
+	color: #000;
+	background-color: $color-section-fifth;
 	text-align: center;
 	transition: all 0.2s;
 	border-style: none;
+	cursor: pointer;
 	@media all and (max-width: 30em) {
-		// display: block;
 		margin: 0.2em auto;
 	}
 }
 .btn:hover {
 	background-color: $color-section-first;
+}
+
+@keyframes fadeVisibility {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: opacity linear;
+	}
 }
