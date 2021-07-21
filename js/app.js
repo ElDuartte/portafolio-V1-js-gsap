@@ -1,3 +1,17 @@
+//=============== GSAP================
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.utils.toArray(".section").forEach((section) => {
+	ScrollTrigger.create({
+		trigger: section,
+		start: "top top",
+		pin: true,
+		pinSpacing: false,
+	});
+});
+
+//============END GSAP===============
 let slidePosition = 0;
 const slides = document.getElementsByClassName("carousel__item");
 const totalSlides = slides.length;
