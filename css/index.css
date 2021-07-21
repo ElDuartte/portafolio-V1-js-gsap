@@ -89,7 +89,7 @@ p {
 }
 
 .second {
-  background-color: #f6511d;
+  background-color: #533a71;
 }
 
 .title-second {
@@ -138,7 +138,7 @@ p {
 }
 
 .third {
-  background-color: #533a71;
+  background-color: #f6511d;
 }
 
 .title-third {
@@ -155,8 +155,7 @@ p {
 }
 
 .fourth {
-  background-color: #ffb400;
-  color: #000;
+  background-color: #0d2c54;
 }
 
 .text-fourth {
@@ -172,7 +171,8 @@ p {
 }
 
 .fifth {
-  background-color: #0d2c54;
+  background-color: #ffb400;
+  color: #000;
 }
 
 .card {
@@ -207,7 +207,7 @@ p {
   font-size: 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #ffb400;
+  background-color: #0d2c54;
   text-align: center;
   transition: all 0.2s;
   border-style: none;
