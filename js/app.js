@@ -10,6 +10,25 @@ gsap.utils.toArray(".section").forEach((section) => {
 		pinSpacing: false,
 	});
 });
+//============END scroll page trigger===============
+//============START education logo animation===============
+gsap.from(".logo-edu", {
+	duration: 1,
+	opacity: 0,
+	scale: 1,
+	y: 50,
+	x: 50,
+	ease: Power3.easeOut,
+	stagger: 0.2,
+	scrollTrigger: {
+		trigger: ".logo-edu",
+
+		start: "top 80%",
+		end: "bottom 5%",
+		toggleActions: "restart complete",
+	},
+});
+//============END education logo animation===============
 
 //============END GSAP===============
 let slidePosition = 0;

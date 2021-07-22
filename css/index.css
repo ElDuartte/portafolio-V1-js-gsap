@@ -72,8 +72,9 @@ p {
 }
 
 .section {
-  padding: 10%;
+  position: sticky;
   height: 100%;
+  padding: 10%;
   color: #fff;
 }
 
