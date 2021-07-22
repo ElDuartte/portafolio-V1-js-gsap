@@ -186,6 +186,11 @@ p {
   position: relative;
 }
 
+.title__carousel {
+  font-size: 3em;
+  padding-bottom: 10px;
+}
+
 .carousel .carousel__item,
 .carousel .carousel__item--hidden {
   display: none;
