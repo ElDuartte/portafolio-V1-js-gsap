@@ -138,6 +138,10 @@ p {
   background-color: #0f6499;
 }
 
+.button3:active {
+  transform: scale(0.7);
+}
+
 .third {
   background-color: #f6511d;
 }
@@ -238,6 +242,10 @@ p {
 
 .btn:hover {
   background-color: #00a6ed;
+}
+
+.btn:active {
+  transform: scale(0.7);
 }
 
 @keyframes fadeVisibility {

@@ -63,6 +63,10 @@
 	background-color: $color-section-first;
 }
 
+.btn:active {
+	transform: scale(0.7);
+}
+
 @keyframes fadeVisibility {
 	0% {
 		opacity: 0;
