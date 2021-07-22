@@ -22,7 +22,6 @@ gsap.from(".logo-edu", {
 	stagger: 0.2,
 	scrollTrigger: {
 		trigger: ".logo-edu",
-
 		start: "top 80%",
 		end: "bottom 5%",
 		toggleActions: "restart complete",
