@@ -66,10 +66,12 @@
 }
 .btn:hover {
 	background-color: $color-section-first;
+	color: #fff;
 }
 
 .btn:active {
 	transform: scale(0.7);
+	color: #fff;
 }
 
 @keyframes fadeVisibility {

@@ -13,7 +13,7 @@ gsap.utils.toArray(".section").forEach((section) => {
 //============END scroll page trigger===============
 //============START text animation===============
 gsap.from("#first_section", {
-	duration: 1,
+	duration: 2.5,
 	opacity: 0,
 	scale: 1,
 	y: -100,
@@ -22,7 +22,7 @@ gsap.from("#first_section", {
 });
 
 gsap.from("#second_section", {
-	duration: 1,
+	duration: 2.5,
 	opacity: 0,
 	scale: 1,
 	x: 100,
@@ -37,7 +37,7 @@ gsap.from("#second_section", {
 });
 
 gsap.from("#third_section", {
-	duration: 1,
+	duration: 2.5,
 	opacity: 0,
 	scale: 1,
 	x: -100,
@@ -52,7 +52,7 @@ gsap.from("#third_section", {
 });
 
 gsap.from("#fourth_section", {
-	duration: 1,
+	duration: 2.5,
 	opacity: 0,
 	scale: 1,
 	y: 50,
@@ -62,7 +62,7 @@ gsap.from("#fourth_section", {
 	scrollTrigger: {
 		trigger: "#fourth_section",
 		start: "top 80%",
-		end: "bottom 5%",
+		end: "bottom 20%",
 		toggleActions: "restart complete",
 	},
 });
