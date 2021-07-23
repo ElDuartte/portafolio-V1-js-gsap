@@ -86,6 +86,12 @@ gsap.from("#texts", {
 	duration: 3.5,
 	opacity: 0,
 	ease: Power3.easeOut,
+	scrollTrigger: {
+		trigger: "#texts",
+		start: "top 80%",
+		end: "bottom 5%",
+		toggleActions: "restart complete",
+	},
 });
 //============END text animation===============
 //============START education logo animation===============
