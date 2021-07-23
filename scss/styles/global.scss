@@ -7,6 +7,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body {
+	overflow-x: hidden;
+}
 
 h1 {
 	font-family: $font-titles;
@@ -42,6 +45,14 @@ h6 {
 li,
 p {
 	font-family: $font-text;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+a {
+	color: white;
+	font-style: none;
+	text-decoration: none;
 	font-size: 1em;
 	line-height: 1em;
 }

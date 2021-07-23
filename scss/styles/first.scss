@@ -1,7 +1,23 @@
 .first {
 	background-color: $color-section-first;
+	color: black;
 }
 
 .phrase {
 	font-size: 1.3em;
+}
+
+.btn_social {
+	font-size: 1.3em;
+	line-height: 1em;
+	cursor: pointer;
+	color: black;
+}
+
+.btn_social:hover {
+	color: white;
+}
+
+.btn_social:active {
+	transform: scale(0.7);
 }

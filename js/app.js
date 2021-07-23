@@ -25,7 +25,6 @@ gsap.from("#second_section", {
 	duration: 1,
 	opacity: 0,
 	scale: 1,
-	// y: 20,
 	x: 100,
 	ease: Power3.easeOut,
 	stagger: 0.2,
