@@ -12,6 +12,14 @@
 ---------------Colors---------------
 /*--------------------------------*/
 /*--------------------------------*\
+------------BreakPoints-------------
+/*--------------------------------*/
+/**
+*
+* Testing
+*
+**/
+/*--------------------------------*\
 ---------------Global---------------
 /*--------------------------------*/
 /*--------------------------------*\
@@ -24,7 +32,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 h1 {
@@ -78,16 +86,60 @@ a {
   line-height: 1em;
 }
 
-.container {
-  height: 100vh;
-  width: 100%;
-}
-
 .section {
   position: sticky;
-  height: 100%;
-  padding: 10%;
+  height: 100vh;
   color: #fff;
+}
+
+.container {
+  padding-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 5vh;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+  }
+}
+
+@media (min-width: 1250px) {
+  .container {
+    padding-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+  }
+}
+
+.container__alt {
+  padding-top: 15vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 5vh;
+}
+
+@media (min-width: 768px) {
+  .container__alt {
+    padding-top: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 20vh;
+  }
+}
+
+@media (min-width: 1250px) {
+  .container__alt {
+    padding-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+  }
 }
 
 /*--------------------------------*\
@@ -141,6 +193,17 @@ a {
   margin-bottom: 5px;
 }
 
+.container__contact-download {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 425px) {
+  .container__contact-download {
+    grid-template-columns: 1fr;
+  }
+}
+
 .curriculum-button-title {
   font-size: 2.5em;
   margin-top: 10px;
@@ -181,10 +244,6 @@ a {
   background-color: #567a09;
 }
 
-.title-third {
-  font-size: 2.5em;
-}
-
 .title-xp {
   margin-top: 10px;
   font-family: "Rajdhani", sans-serif;
@@ -202,16 +261,79 @@ a {
   background-color: #0d2c54;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+@media (min-width: 425px) {
+  .grid-container {
+    padding-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1250px) {
+  .grid-container {
+    padding-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.last {
+  grid-column: 2 / 3;
+}
+
+@media (max-width: 425px) {
+  .last {
+    grid-column: auto;
+  }
+}
+
+.last-last {
+  grid-column: 3 / 4;
+}
+
+@media (max-width: 425px) {
+  .last-last {
+    grid-column: auto;
+  }
+}
+
 .text-fourth {
   padding-top: 5px;
   font-size: 1.3em;
 }
 
 .logo-edu {
-  margin-left: 15px;
-  margin-top: 15px;
   height: 100px;
   width: 100px;
+}
+
+@media (min-width: 768px) {
+  .logo-edu {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .logo-edu {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .logo-edu {
+    height: 300px;
+    width: 300px;
+  }
 }
 
 .fifth {
@@ -223,6 +345,20 @@ a {
   overflow: hidden;
   max-width: 100%;
   position: relative;
+}
+
+@media (min-width: 1050px) {
+  .carousel {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .carousel {
+    width: 75%;
+    margin-left: 12.5%;
+  }
 }
 
 .title__carousel {

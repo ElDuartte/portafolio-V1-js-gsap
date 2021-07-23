@@ -16,6 +16,14 @@
 	margin-bottom: 5px;
 }
 
+.container__contact-download {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	@include media("<=phoneL") {
+		grid-template-columns: 1fr;
+	}
+}
+
 .curriculum-button-title {
 	font-size: 2.5em;
 	margin-top: 10px;

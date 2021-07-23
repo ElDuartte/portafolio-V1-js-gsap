@@ -7,6 +7,14 @@
 	overflow: hidden;
 	max-width: 100%;
 	position: relative;
+	@include media(">=desktopS") {
+		width: 85%;
+		margin-left: 7.5%;
+	}
+	@include media(">=desktop") {
+		width: 75%;
+		margin-left: 12.5%;
+	}
 }
 
 .title__carousel {

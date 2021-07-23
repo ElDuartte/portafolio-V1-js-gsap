@@ -13,12 +13,12 @@ gsap.utils.toArray(".section").forEach((section) => {
 //============END scroll page trigger===============
 //============START text animation===============
 gsap.from("#first_section", {
-	duration: 2.5,
+	duration: 1.5,
 	opacity: 0,
 	scale: 1,
 	y: -100,
 	ease: Power3.easeOut,
-	stagger: 0.3,
+	stagger: 0.5,
 });
 
 gsap.from("#second_section", {
@@ -80,6 +80,12 @@ gsap.from("#fifth_section", {
 		end: "bottom 5%",
 		toggleActions: "restart complete",
 	},
+});
+
+gsap.from("#texts", {
+	duration: 3.5,
+	opacity: 0,
+	ease: Power3.easeOut,
 });
 //============END text animation===============
 //============START education logo animation===============
