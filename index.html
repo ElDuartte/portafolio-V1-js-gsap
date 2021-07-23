@@ -8,95 +8,113 @@
 			name="description"
 			content="Este es mi portafolio personal en el que demuestro mis conocimientos de Tecnologías como React, JavaScript, Gsap, Sass, Bootstrap y Git."
 		/>
+		<link rel="icon" type="image/png" href="favicon.ico" />
 		<title>Juan Felipe Duarte</title>
 		<!-- <link rel="stylesheet" href="./scss/styles.scss" /> -->
-		<link rel="stylesheet" href="./css/index.css" />
 		<link
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="./css/index.css" />
 	</head>
 	<body>
 		<div class="container">
 			<!----------START FIRST SECTION ---------->
 			<section class="first section">
-				<h1 class="main-title">
+				<h1 class="main-title" id="first_section">
 					Hola. <br />
 					Soy Juan Felipe
 				</h1>
-				<p class="phrase">Front-end Developer viviendo en Madrid</p>
+				<p class="phrase" id="first_section">
+					Front-end Developer viviendo en Madrid
+				</p>
 			</section>
 			<!----------END FIRST SECTION ---------->
 			<!----------START SECOND SECTION ---------->
 			<section class="second section">
 				<div>
-					<h2 class="title-second">Acerca de mi</h2>
-					<p class="text-second">
-						Soy Juan Felipe Duarte, un joven web developer autodidacta enfocado
-						en el Front-end. En búsqueda de nuevas experiencias, que me permitan
-						poner en práctica mis conocimientos en React, JavaScript, HTML5 y
-						Sass implementando diseños con Responsive design.
-					</p>
-				</div>
-				<div>
-					<h2 class="contact-title">Contacto</h2>
-					<p class="text-second">
-						Juan Felipe Duarte <br />
-						Madrid, 28032 <br />jf@duartte.co
-					</p>
-				</div>
-				<div>
-					<h2 class="curriculum-button-title">Currículum:</h2>
-					<a href="#" class="button3">Descargar</a>
+					<div id="second_section">
+						<h2 class="title-second">Acerca de mi</h2>
+						<p class="text-second">
+							Soy Juan Felipe Duarte, un joven web developer autodidacta
+							enfocado en el Front-end. En búsqueda de nuevas experiencias, que
+							me permitan poner en práctica mis conocimientos en React,
+							JavaScript, HTML5 y Sass implementando diseños con Responsive
+							design.
+						</p>
+					</div>
+					<div id="second_section">
+						<h2 class="contact-title">Contacto</h2>
+						<p class="text-second">
+							Juan Felipe Duarte <br />
+							Madrid, 28032 <br />jf@duartte.co
+						</p>
+					</div>
+					<div id="second_section">
+						<h2 class="curriculum-button-title">Currículum:</h2>
+						<a href="#" class="button3">Descargar</a>
+					</div>
 				</div>
 			</section>
 			<!----------END SECOND SECTION ---------->
 			<!----------START THIRD SECTION ---------->
 			<section class="third section">
-				<h2 class="title-third">Experiencia</h2>
-				<h6 class="title-xp">Desarrollador Front-end</h6>
-				<p class="text-list">&#10020; Noviembre 2020 - Actualidad</p>
-				<p class="text-list">&#10020; Desarrollador Front-end</p>
-				<h6 class="title-xp">Prácticas</h6>
-				<p class="text-list">&#10020; Noviembre 2019</p>
-				<p class="text-list">
+				<h2 id="third_section" class="title-third">Experiencia</h2>
+				<h6 id="third_section" class="title-xp">Desarrollador Front-end</h6>
+				<p id="third_section" class="text-list">
+					&#10020; Noviembre 2020 - Actualidad
+				</p>
+				<p id="third_section" class="text-list">
+					&#10020; Desarrollador Front-end
+				</p>
+				<h6 id="third_section" class="title-xp">Prácticas</h6>
+				<p id="third_section" class="text-list">&#10020; Noviembre 2019</p>
+				<p id="third_section" class="text-list">
 					&#10020; Prácticas en el lenguaje de programación C
 				</p>
 			</section>
 			<!----------END THIRD SECTION ---------->
 			<!----------START FOURTH SECTION ---------->
 			<section class="fourth section">
-				<h2>Tecnologías</h2>
-				<p class="text-fourth">
-					Estas son algunas de las herramientas que uso.
-				</p>
+				<div id="fourth_section">
+					<h2>Tecnologías</h2>
+					<p class="text-fourth">
+						Estas son algunas de las herramientas que uso.
+					</p>
+				</div>
 				<div class="grid-container">
 					<img
+						id="logo-edu"
 						src="./media/logos-ed/logo-react.webp"
 						alt="Logo de React"
 						class="logo-edu"
 					/>
 					<img
+						id="logo-edu"
 						src="./media/logos-ed/logo-javascript.webp"
 						alt="Logo de JavaScript"
 						class="logo-edu"
 					/>
 					<img
+						id="logo-edu"
 						src="./media/logos-ed/logo-sass.webp"
 						alt="Logo de SASS"
 						class="logo-edu"
 					/>
 					<img
+						id="logo-edu"
 						src="./media/logos-ed/logo-html5.webp"
 						alt="Logo de HTML5"
 						class="logo-edu"
 					/>
 					<img
+						id="logo-edu"
 						src="./media/logos-ed/logo-git.webp"
 						alt="Logo de GIT"
 						class="logo-edu"
 					/>
 					<img
+						id="logo-edu"
 						src="./media/logos-ed/logo-bootstrap.webp"
 						alt="Logo de Bootstrap"
 						class="logo-edu"
@@ -106,7 +124,7 @@
 			<!----------END FOURTH SECTION ---------->
 			<!----------START FIFTH SECTION ---------->
 			<section class="fifth section">
-				<div class="carousel">
+				<div class="carousel" id="fifth_section">
 					<h2 class="title__carousel">Proyectos personales</h2>
 					<div
 						class="carousel__item carousel__item--visible carousel__container"
@@ -119,7 +137,7 @@
 							/>
 						</div>
 						<div class="container-text-card">
-							<h5 class="title-project">Proyecto 1</h3>
+							<h5 class="title-project">Proyecto 1</h5>
 							<p class="text-card">
 								Esta aplicación fue realizada, implementando la filosofía de
 								diseño mobile first, React, Sass, Bootstrap, manejo de Api`s.
@@ -133,7 +151,7 @@
 							class="img-project"
 						/>
 						<div class="container-text-card">
-							<h5 class="title-project">Proyecto 2</h3>
+							<h5 class="title-project">Proyecto 2</h5>
 							<p class="text-card">
 								Esta aplicación fue realizada, implementando la filosofía de
 								diseño mobile first, React, Sass, Bootstrap, manejo de Api`s.
@@ -147,7 +165,7 @@
 							class="img-project"
 						/>
 						<div class="container-text-card">
-							<h5 class="title-project">Proyecto 3</h3>
+							<h5 class="title-project">Proyecto 3</h5>
 							<p class="text-card">
 								Esta aplicación fue realizada, implementando la filosofía de
 								diseño mobile first, React, Sass, Bootstrap, manejo de Api`s.
@@ -161,7 +179,7 @@
 							class="img-project"
 						/>
 						<div class="container-text-card">
-							<h5 class="title-project">Proyecto 4</h3>
+							<h5 class="title-project">Proyecto 4</h5>
 							<p class="text-card">
 								Esta aplicación fue realizada, implementando la filosofía de
 								diseño mobile first, React, Sass, Bootstrap, manejo de Api`s.
